@@ -178,6 +178,16 @@ align-items: center;
         }
         }
 
+        .contact__map{
+            // border: 2px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            iframe{
+                width: 95%;
+            }
+        }
 
 
 
