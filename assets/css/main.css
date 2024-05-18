@@ -1505,8 +1505,10 @@ img {
   }
   .detail__top__left {
     width: 95%;
+    padding: 40px;
   }
   .detail__top__right {
+    padding: 40px;
     width: 100%;
     margin-top: 0px;
     gap: 0px;
@@ -1552,6 +1554,9 @@ img {
   .detail__other__imgs img {
     width: 70%;
     height: 10vh !important;
+  }
+  .detail__top__right h1 {
+    font-size: 23px;
   }
   .detail__top__right p {
     font-size: 13px;
@@ -2054,14 +2059,10 @@ img {
 }
 
 .section4__left {
-  width: 50%;
+  width: 600px;
 }
-.section4__left img {
-  width: 100%;
-}
-
 .section4__right {
-  width: 50%;
+  width: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2079,7 +2080,7 @@ img {
 
 .section4__right__middle__text {
   /* border: 2px solid gray; */
-  width: 70%;
+  width: 500px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -2096,7 +2097,8 @@ img {
   /* border: 1px solid blue; */
   display: flex;
   gap: 20px;
-  align-items: center;
+  justify-content: center;
+  align-items: center !important;
 }
 
 .section4__buttondiv2 {
@@ -2114,10 +2116,20 @@ img {
 
 @media only screen and (max-width: 1200px) {
   .section4__right__middle {
-    width: 100%;
+    width: 370px;
+  }
+  .section4__right {
+    width: 370px;
   }
   .section4__right__middle__text {
-    width: 90%;
+    width: 400px;
+  }
+  .section4__left {
+    width: 450px;
+    padding: 30px;
+  }
+  .section4__left img {
+    height: 500px;
   }
 }
 @media only screen and (max-width: 850px) {
@@ -2128,6 +2140,7 @@ img {
   }
   .section4__left {
     width: 100%;
+    padding: 3px;
   }
   .section4__left img {
     width: 100%;
@@ -2136,10 +2149,16 @@ img {
     position: absolute;
     transform: translate(50%, 50%);
     left: 0;
-    top: 50%;
+    top: 40%;
     z-index: 12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .section4__right__middle {
+    width: 100%;
+  }
+  .section4__right__middle__text {
     width: 100%;
   }
 }
@@ -2157,7 +2176,7 @@ img {
   }
   .section4__right {
     position: absolute;
-    transform: translate(50%, 50%);
+    transform: translate(20%, 50%);
     left: 0;
     top: 30%;
     z-index: 12;
@@ -2172,10 +2191,10 @@ img {
     font-size: 15px;
   }
   .section4__right__middle__text {
-    width: 100% !important;
+    width: 100%;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
   .section4__buttondiv {
     display: flex;
     flex-direction: column;
@@ -2184,10 +2203,58 @@ img {
   }
   .section4__right {
     position: absolute;
-    transform: translate(50%, 50%);
-    left: 0;
-    top: 0%;
+    transform: translate(2%, 60%);
+    left: 10;
+    top: 10%;
     z-index: 12;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .section4__buttondiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+  }
+  .section4__right {
+    position: absolute;
+    transform: translate(10%, 60%);
+    left: 0;
+    top: 10%;
+    z-index: 12;
+  }
+  .section4__right {
+    width: 300px;
+  }
+  .section4__right__middle {
+    width: 270px;
+  }
+  .section4__right__middle img {
+    width: 270px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .section4__buttondiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+  }
+  .section4__right {
+    position: absolute;
+    transform: translate(1%, 60%);
+    left: 0;
+    top: 10%;
+    z-index: 12;
+  }
+  .section4__right {
+    width: 300px;
+  }
+  .section4__right__middle {
+    width: 270px;
+  }
+  .section4__right__middle img {
+    width: 270px;
   }
 }
 .section4__buttondiv2:hover {
@@ -2224,6 +2291,18 @@ img {
   font-family: cursive;
 }
 
+.section5__buttondiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section5__buttondiv button {
+  width: 170px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
 @media only screen and (max-width: 850px) {
   .section5 {
     width: 100%;
@@ -2231,8 +2310,12 @@ img {
     display: flex;
   }
   .section55 {
+    width: 370px;
     display: flex;
     align-items: start !important;
+  }
+  .section55 h1 {
+    font-size: 20px;
   }
   .section5__text {
     width: 100%;
@@ -2253,7 +2336,10 @@ img {
 @media only screen and (max-width: 520px) {
   .section5 {
     width: 100%;
-    margin-top: 510px !important;
+    margin-top: 450px !important;
+  }
+  .section55 {
+    padding: 60px;
   }
   .section55 h1 {
     font-size: 35px;
@@ -2264,7 +2350,7 @@ img {
 }
 @media only screen and (max-width: 370px) {
   .section5 {
-    margin-top: 550px;
+    margin-top: 500px;
   }
 }
 .section6__buttondiv {
@@ -2291,7 +2377,7 @@ img {
 @media only screen and (max-width: 355px) {
   .section5 {
     width: 100%;
-    margin-top: 600px !important;
+    margin-top: 380px !important;
   }
 }
 /* section6 design  */
@@ -2352,6 +2438,10 @@ img {
   font-size: 20px;
 }
 
+.section6__left1 {
+  display: none;
+}
+
 @media only screen and (max-width: 1000px) {
   .section6__text {
     width: 50%;
@@ -2365,7 +2455,13 @@ img {
     gap: 10px;
   }
   .section6__left {
-    width: 80%;
+    display: none;
+  }
+  .section6__left1 {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .section6__text {
     width: 70%;
