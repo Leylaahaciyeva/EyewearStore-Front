@@ -1023,6 +1023,7 @@ h1 {
 
 .about__top__text {
   width: 60%;
+  padding: 20px;
   /* border: 1px solid gray; */
 }
 .about__top__text p {
@@ -1390,7 +1391,7 @@ h1 {
   margin-left: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   width: 600px;
-  height: 500px;
+  height: 600px;
   padding: 40px;
   /* h3 {
       margin-left: 40px;
@@ -1502,8 +1503,9 @@ h1 {
   .Send__mail__form {
     /* border: 2px solid red;*/
     /* width: 40%; */
-    width: 400px;
-    height: 450px;
+    width: 450px;
+    height: 550px;
+    padding: 20px;
   }
 }
 @media only screen and (max-width: 780px) {
@@ -2307,13 +2309,11 @@ img {
 @media only screen and (max-width: 850px) {
   .section5__text {
     width: 450px !important;
-    border: 2px solid red;
   }
 }
 @media only screen and (max-width: 500px) {
   .section5__text {
     width: 250px !important;
-    border: 2px solid red;
   }
 }
 .section55 {
@@ -2385,6 +2385,14 @@ img {
     font-size: 35px;
   }
   .section5__text {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .section5 {
+    width: 280px;
+  }
+  .section55 {
     width: 100%;
   }
 }
