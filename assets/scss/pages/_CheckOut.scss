@@ -1,0 +1,377 @@
+.Check__NameBox{
+    display: flex;
+}
+.Check__left__Side{
+    // border: 2px solid red;
+    width: 60%;
+    // margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Check__form__All{
+    // border: 2px solid black;
+}
+.Check__AdressBox{
+    display: flex;
+}
+.Check__Town{
+    display: flex;
+
+}
+
+
+.Check__form__All{
+    display: flex;
+    padding: 50px;
+}
+
+
+ 
+// order product
+
+.Order__Product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid gray;
+    height: 40px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.Check__right__Side{
+    // border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    width: 40%;
+    height: 500px;
+}
+
+
+
+
+// left side 
+
+.customer__box{
+    input{
+        width: 600px;
+        height: 40px;
+    }
+}
+
+.billing__Box{
+    margin-top: 20px;
+    input{
+        width: 300px;
+        height: 40px;
+    }
+}
+
+.Check__CompanyBox{
+margin-top: 20px;
+    input{
+        width: 600px;
+        height: 40px;
+    }
+}
+.Check__CountryBox{
+    margin-top: 20px;
+    select{
+        width: 600px;
+        height: 40px;
+    }
+}
+
+.Check__AdressBox{
+    margin-top: 20px;
+display: flex;
+gap: 3px;
+    input{
+        width: 300px;
+    }
+}
+.Check__Town{
+    display: flex;
+    gap: 1px;
+    margin-top: 20px;
+    input{
+        width: 200px;
+    }
+    select{
+        width: 200px;
+        height: 40px;
+    }
+}
+
+.Check__Phone{
+    margin-top: 20px;
+    input{
+        width: 600px;
+    }
+}
+
+.Check__informationBox{
+    margin-top: 20px;
+    textarea{
+        width: 600px;
+        height: 100px;
+    }
+    label{
+        margin-top: 20px;
+    }
+}
+.free__Div{
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    margin-top: 10px;
+}
+.submit__button{
+    width: 600px;
+    height: 45px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        color: white;
+        border: none;
+        font-size: 22px;
+        background-color: transparent;
+    }
+}
+.submit__button:hover{
+    background-color: white;
+   button{
+    color: black;
+   }
+    transition-duration: 0.3s;
+}
+
+
+@media only screen and (max-width: 1130px) {
+   .Check__form__All{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .Check__right__Side{
+    // border: 2px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 300px;
+   }
+   .check__right__Order{
+    // border: 5px solid yellow;
+    width: 600px;
+   }
+   .Check__left__Side{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+   }
+  }
+
+
+  @media only screen and (max-width: 666px) {
+    .check__right__Order{
+        // border: 5px solid yellow;
+        width: 400px;
+       }
+    
+    .customer__box{
+        input{
+            width: 400px;
+            height: 40px;
+        }
+    }
+    
+    .billing__Box{
+        margin-top: 20px;
+        input{
+            width: 200px;
+            height: 40px;
+        }
+    }
+    
+    .Check__CompanyBox{
+    margin-top: 20px;
+        input{
+            width: 400px;
+            height: 40px;
+        }
+    }
+    .Check__CountryBox{
+        margin-top: 20px;
+        select{
+            width: 400px;
+            height: 40px;
+        }
+    }
+    
+    .Check__AdressBox{
+        margin-top: 20px;
+    display: flex;
+    gap: 3px;
+        input{
+            width: 200px;
+        }
+    }
+    .Check__Town{
+        display: flex;
+        gap: 1px;
+        margin-top: 20px;
+        input{
+            width: 133px;
+        }
+        select{
+            width: 133px;
+            height: 40px;
+        }
+    }
+    
+    .Check__Phone{
+        margin-top: 20px;
+        input{
+            width: 400px;
+        }
+    }
+    
+    .Check__informationBox{
+        margin-top: 20px;
+        textarea{
+            width: 400px;
+            height: 100px;
+        }
+        label{
+            margin-top: 20px;
+        }
+    }
+    .free__Div{
+        width: 100%;
+        height: 2px;
+        background-color: gray;
+        margin-top: 10px;
+    }
+    .submit__button{
+        width: 400px;
+        height: 45px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            color: white;
+            border: none;
+            font-size: 22px;
+            background-color: transparent;
+        }
+    }
+   }
+
+
+   
+  @media only screen and (max-width: 400px) {
+    .check__right__Order{
+        // border: 5px solid yellow;
+        width: 300px;
+       }
+    
+    .customer__box{
+        input{
+            width: 300px;
+            height: 40px;
+        }
+    }
+    
+    .billing__Box{
+        margin-top: 20px;
+        input{
+            width: 150px;
+            height: 40px;
+        }
+    }
+    
+    .Check__CompanyBox{
+    margin-top: 20px;
+        input{
+            width: 300px;
+            height: 40px;
+        }
+    }
+    .Check__CountryBox{
+        margin-top: 20px;
+        select{
+            width: 300px;
+            height: 40px;
+        }
+    }
+    
+    .Check__AdressBox{
+        margin-top: 20px;
+    display: flex;
+    gap: 3px;
+        input{
+            width: 150px;
+        }
+    }
+    .Check__Town{
+        display: flex;
+        gap: 1px;
+        margin-top: 20px;
+        input{
+            width: 100px;
+        }
+        select{
+            width: 100px;
+            height: 40px;
+        }
+    }
+    
+    .Check__Phone{
+        margin-top: 20px;
+        input{
+            width: 300px;
+        }
+    }
+    
+    .Check__informationBox{
+        margin-top: 20px;
+        textarea{
+            width: 300px;
+            height: 100px;
+        }
+        label{
+            margin-top: 20px;
+        }
+    }
+    .free__Div{
+        width: 100%;
+        height: 2px;
+        background-color: gray;
+        margin-top: 10px;
+    }
+    .submit__button{
+        width: 300px;
+        height: 45px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            color: white;
+            border: none;
+            font-size: 22px;
+            background-color: transparent;
+        }
+    }
+   }
+

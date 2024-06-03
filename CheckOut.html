@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+        <title>Check Out</title>
 </head>
-
 <body>
     <div class="overlay" id="searchOverlay">
         <div class="closeSearch" id="closeSearch"><button><p><strong>X</strong></p></button></div>
@@ -47,9 +45,9 @@
                     <li id="openSearch"><i class="fa-solid fa-magnifying-glass"></i></li>
 
                     <button class="btn btn-primary" style="background: none; border:none; color:gray " type="button"
-                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" aria-controls="offcanvasTop">
-                    <li><i class="fa-solid fa-basket-shopping"></i></li>
-                </button>
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" aria-controls="offcanvasTop">
+                        <li><i class="fa-solid fa-basket-shopping"></i></li>
+                    </button>
 
                     <li><a href="./Login.html">Login</a></li>
                 </ul>
@@ -57,92 +55,117 @@
         </div>
 
     </header>
-
     <main>
-        <section class="Men__Section1">
-            <div class="Men__Sec1__all">
-                <div class="Men__Sec1__top">Home / Men</div>
-                <div class="MenSec1__buttom"><strong>Men</strong></div>
+        <div class="Check__form__All">
+            <div class="Check__left__Side">
+           <form action="">
+            <div class="customer__box">
+                <h3>Customer information</h3>
+                <div class="free"></div>
+                <p>Username or Email Address *</p>
+                <input type="text" placeholder="UserName or e-Mail Adress">
             </div>
-        </section>
-        <section class="Mensection2">
-            <div class="container">
-                <div class="section2__difference">
-                    <h5>Showing All 5 result</h5>
-                    <select name="" id="">
-                        <option value="">Default Sort</option>
-                        <option value="">Sort By Poputlity</option>
-                        <option value="">Sort by average rating</option>
-                        <option value="">Sort by latest</option>
-                        <option value="">Sort by price: low to high</option>
-
-                    </select>
-                </div>
-                <div class="row men__Card__Row">
-                    <div class="col-lg-4 col-md-6 mr-18 mb-3">
-                        <div class="card MenCard1" style="width: 23rem;">
-                            <a href="./Detail.html">
-                                <img src="https://websitedemos.net/eyewear-store-04/wp-content/uploads/sites/1121/2022/09/product-10-a-600x600.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="men__Image"><img
-                                        src="https://websitedemos.net/eyewear-store-04/wp-content/uploads/sites/1121/2022/09/product-10-b.jpg"
-                                        alt=""></div>
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="fa-solid fa-star"></i></h5>
-                                <h3>PRODUCT NAME 11</h3>
-                                <span> $ 1.88</span>
-                                <span><del style="color: gray;">1122$</del></span>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 mr-18 mb-3">
-                        <div class="card MenCard1" style="width: 23rem;">
-                            <a href="./Detail.html">
-                                <img src="https://websitedemos.net/eyewear-store-04/wp-content/uploads/sites/1121/2022/09/product-10-a-600x600.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="men__Image"><img
-                                        src="https://websitedemos.net/eyewear-store-04/wp-content/uploads/sites/1121/2022/09/product-10-b.jpg"
-                                        alt=""></div>
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="fa-solid fa-star"></i></h5>
-                                <h3>PRODUCT NAME 11</h3>
-                                <span> $ 1.88</span>
-                                <span><del style="color: gray;">1122$</del></span>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 mr-18 mb-3">
-                        <div class="card MenCard1" style="width: 23rem;">
-                            <a href="./Detail.html">
-                                <img src="https://websitedemos.net/eyewear-store-04/wp-content/uploads/sites/1121/2022/09/product-10-a-600x600.jpg"
-                                    class="card-img-top" alt="...">
-                                <div class="men__Image"><img
-                                        src="https://websitedemos.net/eyewear-store-04/wp-content/uploads/sites/1121/2022/09/product-10-b.jpg"
-                                        alt=""></div>
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="fa-solid fa-star"></i></h5>
-                                <h3>PRODUCT NAME 11</h3>
-                                <span> $ 1.88</span>
-                                <span><del style="color: gray;">1122$</del></span>
-                            </div>
-                        </div>
+            <div class="billing__Box">
+                <h3>Billing details</h3>
+                <div class="Check__NameBox">
+                   <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" placeholder="name">
+                   </div>
+                    <div>
+                        <label for="">Last Name</label><br >
+                    <input type="" placeholder="last name">
                     </div>
                 </div>
+                <div class="Check__CompanyBox">
+                    <label for="Company">Company name (optional)</label><br>
+                    <input type="text" placeholder="company">
+                </div>
+                <div class="Check__CountryBox">
+                    <label for="country">country</label><br>
+                    <select id="country">
+                        <option value="Azeribaijan">Azeribaijan</option>
+                        <option value="America">Amerika</option>
+                        <option value="Hindistan">Hindistan</option>
+                        <option value="United Stade">United State</option>
+                      </select>
+                </div>
+                <div class="Check__AdressBox">
+                    <div>
+                        <label for="">Street Adress</label><br>
+                        <input type="text" placeholder="street">
+                       
+                    </div>
+                    <div>
+                        <label for="">Apartment, suite </label><br>
+                        <input type="text" placeholder="apartment">
+                    </div>
+                </div>
+                <div class="Check__Town">
+                    <div>
+                        <label for="">Town / City</label><br>
+                        <input type="text" placeholder="town ">
+                    </div>
+                    <div>
+                        <label for="">State</label><br>
+                        <select id="country">
+                            <option value="Azeribaijan">Azeribaijan</option>
+                            <option value="America">Amerika</option>
+                            <option value="Hindistan">Hindistan</option>
+                            <option value="United Stade">United State</option>
+                          </select>
+                    </div>
+                    <div>
+                        <label for="">Zip-Code</label><br>
+                        <input type="text" placeholder="Zip-code">
+                    </div>
+                </div>
+                <div class="Check__Phone">
+                    <label for="">Phone</label><br>
+                    <input type="text" placeholder="phone number">
+                </div>
+                <div class="Check__informationBox">
+                    <h2><strong>Additional information</strong></h2>
+                    <div class="free__Div"></div>
+                    <label for="">Order notes (optional)</label><br>
+                    <textarea name="" id="" placeholder="Notes about your order, e.g special notes for delivery"></textarea>
+                </div>
+                <div class="submit__button"><button>Place Order $150.00</button></div>
             </div>
 
 
-        </section>
+
+
+           </form>
+            </div>
+            <div class="Check__right__Side">
+              <div class="check__right__Order">
+                <h2>Your Order</h2>
+                <div class="Order__Product">
+                    <p>Product</p>
+                    <p>Subtoal</p>
+                </div>
+                <div class="Order__Product">
+                    <p>Product</p>
+                    <p>Subtoal</p>
+                </div>
+                <div class="Order__Product">
+                    <p>Product</p>
+                    <p>Subtoal</p>
+                </div>
+                <div class="Order__Product">
+                    <p>Product</p>
+                    <p>Subtoal</p>
+                </div>
+              </div>
+            </div>
+        </div>
     </main>
+
     <footer class="all__footerr">
         <div class="all__footer">
             <div class="footer__all">
+                <!-- <div class="footer__all__first"> -->
                 <div class="first__link">
                     <img src="https://websitedemos.net/eyewear-store-04/wp-content/uploads/sites/1121/2022/09/logo-footer-regular.png"
                         alt="">
@@ -168,6 +191,8 @@
                     </ul>
                 </div>
 
+                <!-- </div> -->
+
                 <div class="thirt__link">
                     <ul>
                         <li style="font-size: 25px;"><strong>Useful Links</strong></li>
@@ -175,16 +200,16 @@
                             <a href="./Home.html">Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="./Home.html">Refund Policy</a>
+                            <a href="./Home.html">Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="./Home.html">Shipping Informations</a>
+                            <a href="./Home.html">Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="./Home.html">Terms & Conditions</a>
+                            <a href="./Home.html">Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="./Home.html">FAQ’s</a>
+                            <a href="./Home.html">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>
@@ -211,30 +236,11 @@
             <div class="footer__end">
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
             </div>
 
         </div>
     </footer>
-
-
-    <div style="z-index: 555555555555555555;" class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasTop"
-    aria-labelledby="offcanvasTopLabel">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-        <a href="./Home.html">Home</a><br>
-        <a href="./Women.html">Women</a> <br>
-        <a href="./Men.html">Men</a><br>
-        <a href="./Contact.html">Contact</a><br>
-        <a href="./About.html">About us</a>
-    </div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
 
     <script>
         const searchOverlay = document.getElementById('searchOverlay')
@@ -249,6 +255,7 @@
             searchOverlay.classList.remove('openOverlay')
         })
     </script>
+
 
     <div style="z-index: 555555555555555555;" class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2"
     aria-labelledby="offcanvasRightLabel">
@@ -298,6 +305,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 crossorigin="anonymous"></script>
+    
 </body>
-
 </html>

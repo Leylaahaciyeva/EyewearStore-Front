@@ -2766,6 +2766,126 @@ img {
     width: 100px;
   }
 }
+.overlay {
+  background-color: rgba(0, 0, 0, 0.877);
+  width: 100%;
+  position: absolute;
+  z-index: 22222233333333332;
+  height: 800px;
+  display: flex;
+  display: none;
+}
+
+.openOverlay {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.closeSearch {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 50px;
+}
+.closeSearch button {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  font-size: 23px;
+  color: rgb(235, 234, 234);
+}
+
+.Search__something {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  flex-direction: column;
+  gap: 30px;
+}
+.Search__something input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  width: 60%;
+  font-size: 23px;
+  padding: 20px;
+  color: white;
+}
+.Search__something p {
+  color: white;
+  font-size: 25px;
+}
+
+.Basket__card__container {
+  height: 550px;
+}
+
+.basket__card {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  gap: 20px;
+}
+
+.Basket__Products button {
+  width: 40px;
+  height: 35px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.delete__btn__fromBasket {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 10px;
+  gap: 10px;
+}
+.delete__btn__fromBasket p {
+  font-size: 23px;
+  color: gray;
+}
+.delete__btn__fromBasket i {
+  font-size: 20px;
+}
+
+.Free {
+  width: 100%;
+  height: 2px;
+  border: 1px solid gray;
+}
+
+.Subtotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Subtotal p {
+  font-size: 20px;
+  color: gray;
+}
+.Subtotal h3 {
+  font-size: 20px;
+  color: gray;
+}
+
+.buttons__For__basket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.buttons__For__basket button {
+  width: 300px;
+  height: 40px;
+  border: 2px solid black;
+  background-color: white;
+}
+
 /* section1 design  */
 .Men__Section1 {
   /* border: 1px solid red; */
@@ -3140,6 +3260,344 @@ img {
 .Login__Page a {
   text-decoration: none;
   font-size: 23px;
+}
+
+.Check__NameBox {
+  display: flex;
+}
+
+.Check__left__Side {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Check__AdressBox {
+  display: flex;
+}
+
+.Check__Town {
+  display: flex;
+}
+
+.Check__form__All {
+  display: flex;
+  padding: 50px;
+}
+
+.Order__Product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid gray;
+  height: 40px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.Check__right__Side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  height: 500px;
+}
+
+.customer__box input {
+  width: 600px;
+  height: 40px;
+}
+
+.billing__Box {
+  margin-top: 20px;
+}
+.billing__Box input {
+  width: 300px;
+  height: 40px;
+}
+
+.Check__CompanyBox {
+  margin-top: 20px;
+}
+.Check__CompanyBox input {
+  width: 600px;
+  height: 40px;
+}
+
+.Check__CountryBox {
+  margin-top: 20px;
+}
+.Check__CountryBox select {
+  width: 600px;
+  height: 40px;
+}
+
+.Check__AdressBox {
+  margin-top: 20px;
+  display: flex;
+  gap: 3px;
+}
+.Check__AdressBox input {
+  width: 300px;
+}
+
+.Check__Town {
+  display: flex;
+  gap: 1px;
+  margin-top: 20px;
+}
+.Check__Town input {
+  width: 200px;
+}
+.Check__Town select {
+  width: 200px;
+  height: 40px;
+}
+
+.Check__Phone {
+  margin-top: 20px;
+}
+.Check__Phone input {
+  width: 600px;
+}
+
+.Check__informationBox {
+  margin-top: 20px;
+}
+.Check__informationBox textarea {
+  width: 600px;
+  height: 100px;
+}
+.Check__informationBox label {
+  margin-top: 20px;
+}
+
+.free__Div {
+  width: 100%;
+  height: 2px;
+  background-color: gray;
+  margin-top: 10px;
+}
+
+.submit__button {
+  width: 600px;
+  height: 45px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit__button button {
+  color: white;
+  border: none;
+  font-size: 22px;
+  background-color: transparent;
+}
+
+.submit__button:hover {
+  background-color: white;
+  transition-duration: 0.3s;
+}
+.submit__button:hover button {
+  color: black;
+}
+
+@media only screen and (max-width: 1130px) {
+  .Check__form__All {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Check__right__Side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 300px;
+  }
+  .check__right__Order {
+    width: 600px;
+  }
+  .Check__left__Side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+}
+@media only screen and (max-width: 666px) {
+  .check__right__Order {
+    width: 400px;
+  }
+  .customer__box input {
+    width: 400px;
+    height: 40px;
+  }
+  .billing__Box {
+    margin-top: 20px;
+  }
+  .billing__Box input {
+    width: 200px;
+    height: 40px;
+  }
+  .Check__CompanyBox {
+    margin-top: 20px;
+  }
+  .Check__CompanyBox input {
+    width: 400px;
+    height: 40px;
+  }
+  .Check__CountryBox {
+    margin-top: 20px;
+  }
+  .Check__CountryBox select {
+    width: 400px;
+    height: 40px;
+  }
+  .Check__AdressBox {
+    margin-top: 20px;
+    display: flex;
+    gap: 3px;
+  }
+  .Check__AdressBox input {
+    width: 200px;
+  }
+  .Check__Town {
+    display: flex;
+    gap: 1px;
+    margin-top: 20px;
+  }
+  .Check__Town input {
+    width: 133px;
+  }
+  .Check__Town select {
+    width: 133px;
+    height: 40px;
+  }
+  .Check__Phone {
+    margin-top: 20px;
+  }
+  .Check__Phone input {
+    width: 400px;
+  }
+  .Check__informationBox {
+    margin-top: 20px;
+  }
+  .Check__informationBox textarea {
+    width: 400px;
+    height: 100px;
+  }
+  .Check__informationBox label {
+    margin-top: 20px;
+  }
+  .free__Div {
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    margin-top: 10px;
+  }
+  .submit__button {
+    width: 400px;
+    height: 45px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submit__button button {
+    color: white;
+    border: none;
+    font-size: 22px;
+    background-color: transparent;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .check__right__Order {
+    width: 300px;
+  }
+  .customer__box input {
+    width: 300px;
+    height: 40px;
+  }
+  .billing__Box {
+    margin-top: 20px;
+  }
+  .billing__Box input {
+    width: 150px;
+    height: 40px;
+  }
+  .Check__CompanyBox {
+    margin-top: 20px;
+  }
+  .Check__CompanyBox input {
+    width: 300px;
+    height: 40px;
+  }
+  .Check__CountryBox {
+    margin-top: 20px;
+  }
+  .Check__CountryBox select {
+    width: 300px;
+    height: 40px;
+  }
+  .Check__AdressBox {
+    margin-top: 20px;
+    display: flex;
+    gap: 3px;
+  }
+  .Check__AdressBox input {
+    width: 150px;
+  }
+  .Check__Town {
+    display: flex;
+    gap: 1px;
+    margin-top: 20px;
+  }
+  .Check__Town input {
+    width: 100px;
+  }
+  .Check__Town select {
+    width: 100px;
+    height: 40px;
+  }
+  .Check__Phone {
+    margin-top: 20px;
+  }
+  .Check__Phone input {
+    width: 300px;
+  }
+  .Check__informationBox {
+    margin-top: 20px;
+  }
+  .Check__informationBox textarea {
+    width: 300px;
+    height: 100px;
+  }
+  .Check__informationBox label {
+    margin-top: 20px;
+  }
+  .free__Div {
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    margin-top: 10px;
+  }
+  .submit__button {
+    width: 300px;
+    height: 45px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submit__button button {
+    color: white;
+    border: none;
+    font-size: 22px;
+    background-color: transparent;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
