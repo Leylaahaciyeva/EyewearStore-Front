@@ -690,6 +690,10 @@ h1 {
     font-size: 50px;
   }
 }
+a {
+  color: black !important;
+}
+
 .header__all__detail {
   width: 100%;
   display: flex;
@@ -818,7 +822,7 @@ h1 {
 }
 .header__left a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.701);
+  color: rgba(0, 0, 0, 0.701) !important;
   font-size: 20px;
 }
 
@@ -1882,10 +1886,10 @@ img {
 }
 
 .shippingp2 {
-  width: 30%;
-  margin-right: 20px;
+  width: 40%;
   color: #000000;
-  font-size: 19px;
+  font-size: 15px;
+  padding: 0px !important;
 }
 
 .Franediv {
@@ -1914,7 +1918,7 @@ img {
 }
 .Rewiews p {
   color: black;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .plusdiv {
@@ -1974,6 +1978,102 @@ img {
     font-size: 15px !important;
   }
 }
+.rewiews__title {
+  color: gray;
+  width: 100% !important;
+}
+
+.rewiew__textarea {
+  width: 100% !important;
+}
+
+textarea {
+  height: 80px;
+}
+
+.inputs {
+  border: 1px solid rgba(128, 128, 128, 0.582);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.accordion {
+  width: 100% !important;
+}
+
+.comment__div {
+  display: flex;
+  gap: 10px;
+}
+
+.comment__input {
+  width: 50%;
+}
+.comment__input input {
+  width: 100%;
+  height: 30px;
+}
+
+.agrement__class {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.agrement__class p {
+  font-size: 18px;
+  color: rgb(75, 75, 75);
+  margin-top: 10px;
+}
+
+.comment__submit__Btn button {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.comment__submit__Btn button:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 0.7s;
+}
+
+.free__div {
+  border: 1px solid rgba(128, 128, 128, 0.732);
+}
+
+.rewiews__comment {
+  padding: 20px;
+}
+
+.rewiews__title {
+  padding-left: 10px;
+}
+
+.person__image {
+  display: flex;
+  align-items: center;
+}
+.person__image h2 {
+  font-size: 19px;
+}
+.person__image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.person__raiting i {
+  color: orangered;
+  font-size: 17px;
+}
+
 /* section2 design  */
 .section2 {
   width: 100% !important;
@@ -2200,7 +2300,7 @@ img {
     max-width: 100% !important;
   }
   .section3__text h5 {
-    font-size: 15px;
+    font-size: 13px;
   }
   .section3__text h1 {
     font-size: 35px;
