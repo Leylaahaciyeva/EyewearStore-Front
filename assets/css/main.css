@@ -237,7 +237,7 @@ img {
   opacity: 2;
   height: 800px;
   transition: 0.3s, border-radius 0.3s, opacity 0.3s;
-  background-color: rgb(221, 160, 221);
+  background-color: rgb(238, 221, 221);
 }
 
 .img__div {
@@ -257,7 +257,7 @@ img {
   left: 0;
   width: 70% !important;
   z-index: 156;
-  transform: translate(30%, 50%);
+  transform: translate(20%, 50%);
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -274,7 +274,7 @@ img {
 
 h1 {
   font-family: "Yeseva One", display;
-  font-size: 70px;
+  font-size: 90px;
 }
 
 .inside__4:hover {
